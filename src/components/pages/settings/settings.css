@@ -1,0 +1,48 @@
+.left {
+  float: left;
+  /* border-right: 1px solid black; */
+  height: 500px;
+  width: 10%;
+  margin-left: 300px;
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.left ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.left ul li {
+  margin: 10px;
+
+}
+
+.left ul li a {
+  cursor: pointer;
+}
+
+.submit {
+  height: 30px;
+  margin-left: 30px;
+  height: 30px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1c8cf;
+  border-radius: 20px;
+  border: none;
+}
+
+.submit button:hover {
+  cursor: pointer;
+  background-color: rgb(18, 188, 218);
+}
+
+/* .Main-body {
+  background-color: rgb(243 242 240);
+  height: 100vh;
+  width: 100%;
+} */

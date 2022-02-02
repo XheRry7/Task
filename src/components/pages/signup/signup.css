@@ -1,0 +1,51 @@
+.contain {
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.mains {
+  background-color: grey;
+}
+
+.data {
+  display: inline-grid;
+  margin: 20px;
+
+}
+
+.data input {
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 7px;
+  border: none;
+
+}
+
+.data em {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.data button {
+  float: right;
+  margin-left: 30px;
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1c8cf;
+  border-radius: 20px;
+  border: none;
+}
+
+.data button:hover {
+  cursor: pointer;
+  background-color: rgb(18, 188, 218);
+}

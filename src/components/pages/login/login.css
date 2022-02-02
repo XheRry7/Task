@@ -1,0 +1,51 @@
+ .containers {
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 30%;
+   left: 50%;
+   background-color: grey;
+   border-radius: 20px;
+ }
+
+ .mains {
+   background-color: grey;
+ }
+
+ .bodys {
+   display: inline-grid;
+   margin: 20px;
+
+ }
+
+ .bodys input {
+   height: 40px;
+   width: 300px;
+   margin: 10px;
+   border-radius: 7px;
+   border: none;
+
+ }
+
+ .bodys em {
+   margin: 0 auto;
+   font-size: 40px;
+ }
+
+ .bodys button {
+   float: right;
+   margin-right: 45px;
+   height: 30px;
+   width: 100px;
+   align-items: center;
+   justify-content: center;
+   background-color: #b1c8cf;
+   border-radius: 20px;
+   border: none;
+ }
+
+ .bodys button:hover {
+   cursor: pointer;
+   background-color: rgb(18, 188, 218);
+ }
