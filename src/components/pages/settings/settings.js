@@ -13,7 +13,7 @@ const Settings = () => {
   }
   let body = { name: name }
   const updatehandler = () => {
-    axios.put(`http://localhost:5000/api/users/${Idgetted}`, body, { headers: { "Authorization": `Bearer ${token}` } }).then(res => {
+    axios.put(`https://taskforum.herokuapp.com/api/users/${Idgetted}`, body, { headers: { "Authorization": `Bearer ${token}` } }).then(res => {
       if (res.status === 200) {
         // alert("Your name has been updated")
       }

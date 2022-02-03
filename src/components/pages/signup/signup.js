@@ -30,7 +30,7 @@ const SignUp = () => {
 
     let body = { name: name, email: email, password: password }
 
-    axios.post('http://localhost:5000/api/auth/signup', body).then(res => {
+    axios.post('https://taskforum.herokuapp.com/api/auth/signup', body).then(res => {
       if (res.status === 200) {
         setdata(res.data);
         alert(res.data.message)
